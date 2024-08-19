@@ -1,14 +1,14 @@
 # Customized LLM-BERT Model for Time-Series Anomaly Detection in 5G Networks
 
-Welcome to the repository for our Customized LLM-BERT Model, designed for anomaly detection in time-series data from 5G networks. This project represents a novel approach to applying BERT, a Transformer-based Large Language Model (LLM), to the domain of wireless communication, specifically for analyzing In-phase and Quadrature (IQ) data streams.
+This repository is related to my Customized LLM-BERT Model, designed for anomaly detection in time-series data from 5G networks. This project represents a novel approach to applying BERT, a Transformer-based Large Language Model (LLM), to the domain of wireless communication, specifically for analyzing In-phase and Quadrature (IQ) data streams.
 
 ## 📜 Overview
 
 With the evolution of 5G networks, real-time monitoring and anomaly detection have become crucial for maintaining network reliability and performance. This project introduces a cutting-edge method by adapting BERT, a well-known Transformer-based LLM, to detect anomalies in time-series data from 5G networks.
 
 ### Key Innovations:
-- **Customized Time-Series Embedding:** We have customized the BERT architecture to handle time-series data by developing a specialized embedding layer that transforms the 2D IQ data into a higher-dimensional space compatible with BERT’s input requirements.
-- **Transformer Adaptation for Time-Series:** By treating sequences of IQ samples as analogous to sequences of tokens in a sentence, we’ve successfully applied the Transformer model to time-series data, enabling the detection of subtle anomalies over long sequences.
+- **Customized Time-Series Embedding:** I have developed a customized architecture to handle time-series data by developing a specialized embedding layer that transforms the 2D sample data into a higher-dimensional space compatible with BERT’s input requirements.
+- **Transformer Adaptation for Time-Series:** By treating sequences of samples as analogous to sequences of tokens in a sentence, we’ve successfully applied the Transformer model to time-series data, enabling the detection of subtle anomalies over long sequences.
 - **Anomaly Detection via Reconstruction Error:** The model identifies anomalies by calculating the reconstruction error between the original and reconstructed IQ data, allowing for precise detection of irregularities in the network’s performance.
 - **Cross-Domain Application of LLMs:** Leveraging the power of BERT and Transformers, traditionally used in NLP, we’ve demonstrated their versatility in processing and analyzing time-series data in the telecommunications domain.
 
@@ -19,7 +19,7 @@ With the evolution of 5G networks, real-time monitoring and anomaly detection ha
 BERT is a Transformer-based model that has redefined NLP tasks by introducing bidirectional context understanding. Here’s why BERT is ideal for our model:
 
 - **Bidirectional Contextual Understanding:** BERT allows the model to consider the full context of an IQ data sequence, making it highly effective at detecting anomalies that are dependent on patterns across multiple time steps.
-- **Sequence Embeddings:** By embedding IQ samples into a high-dimensional space, BERT enables the model to capture complex temporal dependencies, which are crucial for accurate anomaly detection.
+- **Sequence Embeddings:** By embedding samples into a high-dimensional space, BERT enables the model to capture complex temporal dependencies, which are crucial for accurate anomaly detection.
 
 ### Large Language Models (LLMs)
 
