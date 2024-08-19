@@ -118,7 +118,4 @@ This project showcases the innovative application of BERT and Transformers for t
 
 ## 📫 Contact
 
-If you have any questions or suggestions, feel free to reach out to me:
-
-- **Email:** [mrkouchakii@gmail.com](mailto:mrkouchakii@gmail.com)
-- **LinkedIn:** [linkedin.com/in/mohammadreza-kouchaki](https://www.linkedin.com/in/mohammadreza-kouchaki/)
+If you have any questions or suggestions, feel free to reach out to me via Email or LinkedIn.
